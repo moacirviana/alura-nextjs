@@ -1,10 +1,5 @@
-import Link from "../src/components/Link";
+import HomeScreen from "../src/screens/HomeScreen";
 
-export default function HomePage() {
-  return (
-    <div>
-      <h1>Welcome to Next.js!</h1>
-      <Link href="/faq">Go to FAQ Page</Link>
-    </div>
-  );
+export default function IndexPage() {
+  return <HomeScreen />;
 }
